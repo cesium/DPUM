@@ -16,11 +16,14 @@ This is sequence A276523 in the OEIS database.
 # Input:
 You'll be given an integer n, one per line. This is the size of your canvas to work with. Example:
 
+```
 11
+```
 
 # Output:
 Your program should emit the smallest value you can find for that canvas size, optionally the dimensions of the rectangles your program generated. Example:
 
+```
 6
 3 X 4
 2 X 6
@@ -30,3 +33,4 @@ Your program should emit the smallest value you can find for that canvas size, o
 2 X 8
 2 X 9
 3 X 6
+```
