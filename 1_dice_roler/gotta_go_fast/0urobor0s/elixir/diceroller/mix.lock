@@ -1,0 +1,5 @@
+%{
+  "benchfella": {:hex, :benchfella, "0.3.5", "b2122c234117b3f91ed7b43b6e915e19e1ab216971154acd0a80ce0e9b8c05f5", [:mix], [], "hexpm"},
+  "parallel": {:hex, :parallel, "0.0.3", "d1c9a03f0fd6c85ba174938b9823db51e01a68f9f0e76e3f3e11989cbeb607e7", [:mix], [], "hexpm"},
+  "parallel_task": {:hex, :parallel_task, "0.1.1", "d65477457a9415b98c11b73c4f36886f3b24677595ff792ec8f460ad69725313", [:mix], [], "hexpm"},
+}
