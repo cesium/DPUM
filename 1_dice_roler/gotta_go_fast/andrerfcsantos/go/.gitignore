@@ -1,0 +1,4 @@
+*.out
+*.exe
+*.prof
+main
