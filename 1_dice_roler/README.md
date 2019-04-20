@@ -3,7 +3,7 @@
 
 Imagina que queres jogar *Dungeons & Dragons* mas não tens dados de várias
 dimensões. Resolve este problema criando um programa que possa lançar qualquer
- tipo de dados.
+tipo de dados.
 
 ## Formato do Input
 
