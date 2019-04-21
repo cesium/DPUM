@@ -1,6 +1,7 @@
 # Staircase problem
+![](https://img.shields.io/badge/-EASY-brightgreen.svg?style=for-the-badge)
 
-Consider a staircase of size :
+Consider a staircase of size 4:
 
 ```
    #
@@ -9,25 +10,27 @@ Consider a staircase of size :
 ####
 ```
 
-Observe that its base and height are both equal to , and the image is drawn using # symbols and spaces. The last line is not preceded by any spaces.
+Observe that its base and height are both equal to 4, and the image is drawn
+using # symbols and spaces. The last line is not preceded by any spaces.
 
-Write a program that prints a staircase of size .
+Write a program that prints a staircase of size `n`.
 
 ## Function Description
 
-Complete the staircase function in the editor below. It should print a staircase as described above.
+Complete the staircase function in the editor below. It should print a
+staircase as described above.
 
-staircase has the following parameter(s):
+`staircase` has the following parameter (from the command line):
 
 * n: an integer
 
 ## Input Format
 
-A single integer, , denoting the size of the staircase.
+A single integer, `n`, denoting the size of the staircase.
 
-Constraints
+Constraints:
 
-$$0 < n <= 100$$
+* $$0 < n <= 100$$
 
 ## Output Format
 
@@ -54,4 +57,6 @@ Sample Input
 
 ## Explanation
 
-The staircase is right-aligned, composed of # symbols and spaces, and has a height and width of $$n = 6$$.
+The staircase is right-aligned, composed of # symbols and spaces, and has a
+height and width of $$n = 6$$.
+
