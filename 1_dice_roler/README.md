@@ -1,8 +1,9 @@
-# [EASY] Cria um lançador de dados
+# Cria um lançador de dados
+![](https://img.shields.io/badge/-EASY-brightgreen.svg?style=for-the-badge)
 
 Imagina que queres jogar *Dungeons & Dragons* mas não tens dados de várias
 dimensões. Resolve este problema criando um programa que possa lançar qualquer
- tipo de dados.
+tipo de dados.
 
 ## Formato do Input
 
@@ -72,5 +73,5 @@ todos os lançamentos para cada linha. Por exemplo, assim:
 
 ---
 
-*Podes ler o enunciado original [aqui](https://www.reddit.com/r/dailyprogrammer/comments/8s0cy1/20180618_challenge_364_easy_create_a_dice_roller/).*
+_Podes ler o enunciado original [aqui](https://redd.it/8s0cy1/)._
 
