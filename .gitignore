@@ -219,8 +219,10 @@ rel/example_project
 *.out
 
 ### Go Patch ###
-/vendor/
-/Godeps/
+*.prof
+*.pprof
+**/go/vendor/
+**/go/Godeps/
 
 
 ### Haskell ###
