@@ -18,9 +18,5 @@ wirnbfzehatqlojpgcvusyxkmd
 
 É de relembrar que este output pode não ser único.
 
-## Bónus
-
-Tipicamente um input válido terá muitos outputs possíveis. O objetivo deste desafio bónus é encontrar um input com o menor número de outputs possíveis tendo pelo menos um.
-
 ---
 
