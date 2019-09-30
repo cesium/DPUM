@@ -9,7 +9,7 @@ Por exemplo:
 `sos`
 `programmer`
 
-##Formato Output
+## Formato Output
 
 ```
 "sos" => "...---..."
