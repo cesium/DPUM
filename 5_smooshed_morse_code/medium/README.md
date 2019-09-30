@@ -24,4 +24,3 @@ Tipicamente um input válido terá muitos outputs possíveis. O objetivo deste d
 
 ---
 
-_Podes ler o enunciado original [aqui](https://tinyurl.com/y34pqmba)._
