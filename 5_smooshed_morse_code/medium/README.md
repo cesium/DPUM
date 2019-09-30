@@ -17,6 +17,7 @@ wirnbfzehatqlojpgcvusyxkmd
 ```
 
 É de relembrar que este output pode não ser único.
+Utiliza este [input](https://gist.github.com/cosmologicon/415be8987a24a3abd07ba1dddc3cf389#file-smorse2-bonus1-in) caso querias testar a rapidez do teu código.
 
 ---
 
