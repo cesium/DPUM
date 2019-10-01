@@ -8,12 +8,16 @@
 - [Dice Roller](1_dice_roler)
 - [Reverse Staircase](2_reverse_staircase)
 - [Three Sum](3_sum)
+- [Smoshed Morse Code](5_somoshed_morse_code/)
 
 ### MEDIUM
+
+- [Smoshed Morse Code](5_somoshed_morse_code/)
 
 ### HARD
 
 - [The Mondrian Art Puzzle](4_mondrian_puzzle/)
+- [Smoshed Morse Code](5_somoshed_morse_code/)
 
 ## Rules
 
