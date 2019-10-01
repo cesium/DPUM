@@ -8,5 +8,5 @@ Dada uma permutação do alfabeto codificada em codigo morse sem espaços entre 
 
 Tipicamente um input válido terá muitos outputs possíveis. O objetivo deste desafio bónus é encontrar um input com o menor número de outputs possíveis tendo pelo menos um.
 O teu programa deve imprimir no ecra essa string de código morse colado.
-Se tiveres alguma dúvida relacionada com o imput ou output verifica o desafio anterior._
+Se tiveres alguma dúvida relacionada com o input ou output verifica o desafio anterior._
 
