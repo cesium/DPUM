@@ -1,0 +1,25 @@
+\begin{theindex}
+
+  \item {/home/marques/\+Desktop/\+Cesium/\+D\+P\+U\+M/5\+\_\+smooshed\+\_\+morse\+\_\+code/easy/code\+\_\+golf/\+Marquinhos87/\+C/src/morse.\+h}, 
+		\hyperpage{3}
+
+  \indexspace
+
+  \item {morse.\+h}
+    \subitem {prt}, \hyperpage{3}
+    \subitem {translate}, \hyperpage{4}
+    \subitem {translate\+Char}, \hyperpage{4}
+
+  \indexspace
+
+  \item {prt}
+    \subitem {morse.\+h}, \hyperpage{3}
+
+  \indexspace
+
+  \item {translate}
+    \subitem {morse.\+h}, \hyperpage{4}
+  \item {translate\+Char}
+    \subitem {morse.\+h}, \hyperpage{4}
+
+\end{theindex}
