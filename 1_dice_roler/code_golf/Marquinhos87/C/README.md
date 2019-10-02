@@ -1,6 +1,6 @@
 # Como Utilizar Dice Roler
 
-Para utilizar de forma correta o dice roler, tens de seguir apenas alguns passos.
+Para utilizar de forma correta o dice roler, tens de seguir apenas dois passos.
 
 ## Primeiro Passo
 
