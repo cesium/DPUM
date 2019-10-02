@@ -18,7 +18,10 @@ Executa apenas 'diceRoler' no terminal, este vai ficar à espera que escrevas al
 
 Executa 'diceRoler input.txt' ou 'diceRoler < input.txt' no terminal, desta maneira vai ler todas as linhas do teu ficheiro input.txt (podes dar outro nome ao ficheiro e se o ficheiro não estiver na mesma diretoria onde estás a executar o programa tens de especificar o caminho até ao ficheiro) e para uma delas vai imprimir o resultado obtido e os valores obtidos em cada dado. Quando chega ao final do ficheiro o o programa termina.
 
-## Observação
+## Observações
 
 No caso de colocares uma linha que não esteja no formato das regras o teu programa não se vai desligar inesperadamente mas vai te avisar de 'Invalid String Format'.
+
 No caso de queremos imprimir o resultado para um ficheiro em vez do terminal acrescenta à forma de iniciares o programa o seguinte '> res.txt' (podes dar o nome que quiseres a esse ficheiro).
+
+Caso queiras ver a documentação dentro da pasta 'doc' tens duas pastas 'html' e 'latex', nas quais entras um 'index.html' e um 'refman.pdf', respetivamente.
