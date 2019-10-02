@@ -1,0 +1,46 @@
+\begin{theindex}
+
+  \item {/home/marques/\+Desktop/\+Cesium/\+D\+P\+U\+M/1\+\_\+dice\+\_\+roler/code\+\_\+golf/\+Marquinhos87/\+C/src/diceroler.\+h}, 
+		\hyperpage{3}
+
+  \indexspace
+
+  \item {calc}
+    \subitem {diceroler.\+h}, \hyperpage{4}
+
+  \indexspace
+
+  \item {diceroler.\+h}
+    \subitem {calc}, \hyperpage{4}
+    \subitem {genV}, \hyperpage{4}
+    \subitem {getD}, \hyperpage{4}
+    \subitem {getF}, \hyperpage{6}
+    \subitem {prt}, \hyperpage{6}
+    \subitem {sum}, \hyperpage{6}
+    \subitem {x}, \hyperpage{7}
+
+  \indexspace
+
+  \item {genV}
+    \subitem {diceroler.\+h}, \hyperpage{4}
+  \item {getD}
+    \subitem {diceroler.\+h}, \hyperpage{4}
+  \item {getF}
+    \subitem {diceroler.\+h}, \hyperpage{6}
+
+  \indexspace
+
+  \item {prt}
+    \subitem {diceroler.\+h}, \hyperpage{6}
+
+  \indexspace
+
+  \item {sum}
+    \subitem {diceroler.\+h}, \hyperpage{6}
+
+  \indexspace
+
+  \item {x}
+    \subitem {diceroler.\+h}, \hyperpage{7}
+
+\end{theindex}

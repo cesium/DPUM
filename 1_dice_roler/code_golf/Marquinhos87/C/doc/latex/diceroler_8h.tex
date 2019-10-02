@@ -1,0 +1,148 @@
+\hypertarget{diceroler_8h}{}\section{/home/marques/\+Desktop/\+Cesium/\+D\+P\+U\+M/1\+\_\+dice\+\_\+roler/code\+\_\+golf/\+Marquinhos87/\+C/src/diceroler.h File Reference}
+\label{diceroler_8h}\index{/home/marques/\+Desktop/\+Cesium/\+D\+P\+U\+M/1\+\_\+dice\+\_\+roler/code\+\_\+golf/\+Marquinhos87/\+C/src/diceroler.\+h@{/home/marques/\+Desktop/\+Cesium/\+D\+P\+U\+M/1\+\_\+dice\+\_\+roler/code\+\_\+golf/\+Marquinhos87/\+C/src/diceroler.\+h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$ctype.\+h$>$}\newline
+Include dependency graph for diceroler.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{diceroler_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{diceroler_8h_a4e9c274287e91e69632a10c25aa19c44}{getD} (char $\ast$l)
+\item 
+int \hyperlink{diceroler_8h_a7800ab7b7564ba44ff219de7f3d19f32}{getF} (char $\ast$l)
+\item 
+int $\ast$ \hyperlink{diceroler_8h_a8ae17648d8acdac6e1beea61c0ae9fea}{genV} (int d, int f)
+\item 
+void \hyperlink{diceroler_8h_a784c2f0f86fdcaf4f18a53f33ec36c76}{prt} (int d, int v, int $\ast$vs)
+\item 
+int \hyperlink{diceroler_8h_ad39671e47ead404e4e9ad0257ad57f72}{sum} (int d, int $\ast$v)
+\item 
+int \hyperlink{diceroler_8h_ab25ea6343d892b5e77002d6227a69e28}{calc} (char $\ast$l)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{diceroler_8h_a6150e0515f7202e2fb518f7206ed97dc}{x}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{diceroler_8h_ab25ea6343d892b5e77002d6227a69e28}\label{diceroler_8h_ab25ea6343d892b5e77002d6227a69e28}} 
+\index{diceroler.\+h@{diceroler.\+h}!calc@{calc}}
+\index{calc@{calc}!diceroler.\+h@{diceroler.\+h}}
+\subsubsection{\texorpdfstring{calc()}{calc()}}
+{\footnotesize\ttfamily int calc (\begin{DoxyParamCaption}\item[{char $\ast$}]{l }\end{DoxyParamCaption})}
+
+Function that calls the others to generate de final result
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & String to process. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return 0 if alright OK or 1 if something wrong 
+\end{DoxyReturn}
+\mbox{\Hypertarget{diceroler_8h_a8ae17648d8acdac6e1beea61c0ae9fea}\label{diceroler_8h_a8ae17648d8acdac6e1beea61c0ae9fea}} 
+\index{diceroler.\+h@{diceroler.\+h}!genV@{genV}}
+\index{genV@{genV}!diceroler.\+h@{diceroler.\+h}}
+\subsubsection{\texorpdfstring{gen\+V()}{genV()}}
+{\footnotesize\ttfamily int$\ast$ genV (\begin{DoxyParamCaption}\item[{int}]{d,  }\item[{int}]{f }\end{DoxyParamCaption})}
+
+Funtion that generate numbers between \textquotesingle{}1 to f\textquotesingle{} in a total of \textquotesingle{}d\textquotesingle{} times.
+
+
+\begin{DoxyParams}{Parameters}
+{\em d} & Number of dices. \\
+\hline
+{\em f} & Number of faces. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Integer array with de values of the all dices 
+\end{DoxyReturn}
+\mbox{\Hypertarget{diceroler_8h_a4e9c274287e91e69632a10c25aa19c44}\label{diceroler_8h_a4e9c274287e91e69632a10c25aa19c44}} 
+\index{diceroler.\+h@{diceroler.\+h}!getD@{getD}}
+\index{getD@{getD}!diceroler.\+h@{diceroler.\+h}}
+\subsubsection{\texorpdfstring{get\+D()}{getD()}}
+{\footnotesize\ttfamily int getD (\begin{DoxyParamCaption}\item[{char $\ast$}]{l }\end{DoxyParamCaption})}
+
+Function that parse the string to get the number of dices.
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & a charater pointer. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of dices 
+\end{DoxyReturn}
+\mbox{\Hypertarget{diceroler_8h_a7800ab7b7564ba44ff219de7f3d19f32}\label{diceroler_8h_a7800ab7b7564ba44ff219de7f3d19f32}} 
+\index{diceroler.\+h@{diceroler.\+h}!getF@{getF}}
+\index{getF@{getF}!diceroler.\+h@{diceroler.\+h}}
+\subsubsection{\texorpdfstring{get\+F()}{getF()}}
+{\footnotesize\ttfamily int getF (\begin{DoxyParamCaption}\item[{char $\ast$}]{l }\end{DoxyParamCaption})}
+
+Function that parse the string to get the number of faces of the dices.
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & a charater pointer. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of faces of every dice 
+\end{DoxyReturn}
+\mbox{\Hypertarget{diceroler_8h_a784c2f0f86fdcaf4f18a53f33ec36c76}\label{diceroler_8h_a784c2f0f86fdcaf4f18a53f33ec36c76}} 
+\index{diceroler.\+h@{diceroler.\+h}!prt@{prt}}
+\index{prt@{prt}!diceroler.\+h@{diceroler.\+h}}
+\subsubsection{\texorpdfstring{prt()}{prt()}}
+{\footnotesize\ttfamily void prt (\begin{DoxyParamCaption}\item[{int}]{d,  }\item[{int}]{v,  }\item[{int $\ast$}]{vs }\end{DoxyParamCaption})}
+
+Function to print to stdout the result of a play or multiple-\/play.
+
+
+\begin{DoxyParams}{Parameters}
+{\em d} & Number of dices. \\
+\hline
+{\em v} & Sum of the values of all dices. \\
+\hline
+{\em vs} & Integer array with all values of the dices. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{diceroler_8h_ad39671e47ead404e4e9ad0257ad57f72}\label{diceroler_8h_ad39671e47ead404e4e9ad0257ad57f72}} 
+\index{diceroler.\+h@{diceroler.\+h}!sum@{sum}}
+\index{sum@{sum}!diceroler.\+h@{diceroler.\+h}}
+\subsubsection{\texorpdfstring{sum()}{sum()}}
+{\footnotesize\ttfamily int sum (\begin{DoxyParamCaption}\item[{int}]{d,  }\item[{int $\ast$}]{v }\end{DoxyParamCaption})}
+
+Function that make de sum of all dices rolled.
+
+
+\begin{DoxyParams}{Parameters}
+{\em d} & Number of dices. \\
+\hline
+{\em v} & Integer array with all values of the dices. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The sum of all dices rolled 
+\end{DoxyReturn}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{diceroler_8h_a6150e0515f7202e2fb518f7206ed97dc}\label{diceroler_8h_a6150e0515f7202e2fb518f7206ed97dc}} 
+\index{diceroler.\+h@{diceroler.\+h}!x@{x}}
+\index{x@{x}!diceroler.\+h@{diceroler.\+h}}
+\subsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily int x}
+
+This is a global variable to save the current position of the line that we are processing. 
