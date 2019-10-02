@@ -1,0 +1,126 @@
+\hypertarget{morse_8h}{}\section{/home/marques/\+Desktop/\+Cesium/\+D\+P\+U\+M/5\+\_\+smooshed\+\_\+morse\+\_\+code/medium/code\+\_\+golf/\+Marquinhos87/\+C/src/morse.h File Reference}
+\label{morse_8h}\index{/home/marques/\+Desktop/\+Cesium/\+D\+P\+U\+M/5\+\_\+smooshed\+\_\+morse\+\_\+code/medium/code\+\_\+golf/\+Marquinhos87/\+C/src/morse.\+h@{/home/marques/\+Desktop/\+Cesium/\+D\+P\+U\+M/5\+\_\+smooshed\+\_\+morse\+\_\+code/medium/code\+\_\+golf/\+Marquinhos87/\+C/src/morse.\+h}}
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+Include dependency graph for morse.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=260pt]{morse_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+char \hyperlink{morse_8h_a418a09102b7bacfa2f47bf29bf8584bc}{translate\+To\+Char4} (char $\ast$c)
+\item 
+char \hyperlink{morse_8h_a3c1b256df2911a55d7af1cbe41b84578}{translate\+To\+Char3} (char $\ast$c)
+\item 
+char \hyperlink{morse_8h_ae4c8a699440373383d52569f6407dcb5}{translate\+To\+Char2} (char $\ast$c)
+\item 
+char \hyperlink{morse_8h_a15afa7010205206206cf76765e567b2d}{translate\+To\+Char1} (char $\ast$c)
+\item 
+void \hyperlink{morse_8h_ac36387a970df0f1158504eaf0f9902a3}{prt} (char $\ast$l, char $\ast$t)
+\item 
+int \hyperlink{morse_8h_a63db48f0b63037f87f95b0c591bf91b2}{translate} (char $\ast$l)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{morse_8h_ac36387a970df0f1158504eaf0f9902a3}\label{morse_8h_ac36387a970df0f1158504eaf0f9902a3}} 
+\index{morse.\+h@{morse.\+h}!prt@{prt}}
+\index{prt@{prt}!morse.\+h@{morse.\+h}}
+\subsubsection{\texorpdfstring{prt()}{prt()}}
+{\footnotesize\ttfamily void prt (\begin{DoxyParamCaption}\item[{char $\ast$}]{l,  }\item[{char $\ast$}]{t }\end{DoxyParamCaption})}
+
+Function to print to stdout the result translation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & String of Morse Code to translation. \\
+\hline
+{\em ls} & String with translation. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{morse_8h_a63db48f0b63037f87f95b0c591bf91b2}\label{morse_8h_a63db48f0b63037f87f95b0c591bf91b2}} 
+\index{morse.\+h@{morse.\+h}!translate@{translate}}
+\index{translate@{translate}!morse.\+h@{morse.\+h}}
+\subsubsection{\texorpdfstring{translate()}{translate()}}
+{\footnotesize\ttfamily int translate (\begin{DoxyParamCaption}\item[{char $\ast$}]{l }\end{DoxyParamCaption})}
+
+Function that calls the others to generate de final result.
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & String for translation. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return 0 if alright OK or 1 if something wrong 
+\end{DoxyReturn}
+\mbox{\Hypertarget{morse_8h_a15afa7010205206206cf76765e567b2d}\label{morse_8h_a15afa7010205206206cf76765e567b2d}} 
+\index{morse.\+h@{morse.\+h}!translate\+To\+Char1@{translate\+To\+Char1}}
+\index{translate\+To\+Char1@{translate\+To\+Char1}!morse.\+h@{morse.\+h}}
+\subsubsection{\texorpdfstring{translate\+To\+Char1()}{translateToChar1()}}
+{\footnotesize\ttfamily char translate\+To\+Char1 (\begin{DoxyParamCaption}\item[{char $\ast$}]{c }\end{DoxyParamCaption})}
+
+Function that translate morse code to character (with length 1).
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & Character to converte to morse code. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String with morse code of the character 
+\end{DoxyReturn}
+\mbox{\Hypertarget{morse_8h_ae4c8a699440373383d52569f6407dcb5}\label{morse_8h_ae4c8a699440373383d52569f6407dcb5}} 
+\index{morse.\+h@{morse.\+h}!translate\+To\+Char2@{translate\+To\+Char2}}
+\index{translate\+To\+Char2@{translate\+To\+Char2}!morse.\+h@{morse.\+h}}
+\subsubsection{\texorpdfstring{translate\+To\+Char2()}{translateToChar2()}}
+{\footnotesize\ttfamily char translate\+To\+Char2 (\begin{DoxyParamCaption}\item[{char $\ast$}]{c }\end{DoxyParamCaption})}
+
+Function that translate morse code to character (with length 2).
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & Character to converte to morse code. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String with morse code of the character 
+\end{DoxyReturn}
+\mbox{\Hypertarget{morse_8h_a3c1b256df2911a55d7af1cbe41b84578}\label{morse_8h_a3c1b256df2911a55d7af1cbe41b84578}} 
+\index{morse.\+h@{morse.\+h}!translate\+To\+Char3@{translate\+To\+Char3}}
+\index{translate\+To\+Char3@{translate\+To\+Char3}!morse.\+h@{morse.\+h}}
+\subsubsection{\texorpdfstring{translate\+To\+Char3()}{translateToChar3()}}
+{\footnotesize\ttfamily char translate\+To\+Char3 (\begin{DoxyParamCaption}\item[{char $\ast$}]{c }\end{DoxyParamCaption})}
+
+Function that translate morse code to character (with length 3).
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & Character to converte to morse code. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String with morse code of the character 
+\end{DoxyReturn}
+\mbox{\Hypertarget{morse_8h_a418a09102b7bacfa2f47bf29bf8584bc}\label{morse_8h_a418a09102b7bacfa2f47bf29bf8584bc}} 
+\index{morse.\+h@{morse.\+h}!translate\+To\+Char4@{translate\+To\+Char4}}
+\index{translate\+To\+Char4@{translate\+To\+Char4}!morse.\+h@{morse.\+h}}
+\subsubsection{\texorpdfstring{translate\+To\+Char4()}{translateToChar4()}}
+{\footnotesize\ttfamily char translate\+To\+Char4 (\begin{DoxyParamCaption}\item[{char $\ast$}]{c }\end{DoxyParamCaption})}
+
+Function that translate morse code to character (with length 4).
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & Character to converte to morse code. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String with morse code of the character 
+\end{DoxyReturn}
