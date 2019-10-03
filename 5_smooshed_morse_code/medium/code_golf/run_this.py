@@ -9,19 +9,19 @@ dictionary = dict(zip(morse, letters))
 
 def check_morse_code(original_code, dictionary, used_letters = []):
     
-    for i in range(1,3):
+    for i in range(0,3):
         checking = original_code[:i]
 
         if checking in dictionary:            
             used_letter = dictionary.get(checking, "")
 
             dictionary.pop(checking)
-            print("\n\n\n")
             print(checking)
+            print(used_letter, end=" ")
 
-            print(used_letter, end=" ")   
+            check_morse_code(original_code[i:], dictionary)
 
 
 
-check_morse_code('-----......------.--.-...-.---.-..-.....-.-.-.-..--..-.--.--..-..-...-..--.....--.', dictionary)
+check_morse_code('.--...-.-.-.....-.--........----.-.-..---.---.--.--.-.-....-..-...-.---..--.----..', dictionary)
 
