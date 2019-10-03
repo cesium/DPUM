@@ -7,7 +7,21 @@ dictionary = dict(zip(morse, letters))
 
 
 
-def check_morse_code(original_code):
-    print(original_code)
+def check_morse_code(original_code, dictionary, used_letters = []):
+    
+    for i in range(1,3):
+        checking = original_code[:i]
 
-print(check_morse_code('-----......------.--.-...-.---.-..-.....-.-.-.-..--..-.--.--..-..-...-..--.....--.'))
+        if checking in dictionary:            
+            used_letter = dictionary.get(checking, "")
+
+            dictionary.pop(checking)
+            print("\n\n\n")
+            print(checking)
+
+            print(used_letter, end=" ")   
+
+
+
+check_morse_code('-----......------.--.-...-.---.-..-.....-.-.-.-..--..-.--.--..-..-...-..--.....--.', dictionary)
+
