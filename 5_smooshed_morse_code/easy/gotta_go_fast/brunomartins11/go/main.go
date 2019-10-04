@@ -1,9 +1,9 @@
 package main
 
 import (
-	"bufio"
-	"fmt"
-	"os"
+  "bufio"
+  "fmt"
+  "os"
   "sync"
 )
 
