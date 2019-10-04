@@ -49,10 +49,10 @@ func main() {
     "z": "--..",
   }
 
-	scanner := bufio.NewScanner(os.Stdin)
+  scanner := bufio.NewScanner(os.Stdin)
 
-	for scanner.Scan() {
-		line := scanner.Text()
+  for scanner.Scan() {
+    line := scanner.Text()
     wg.Add(1)
     go smosh(line, m)
   }
