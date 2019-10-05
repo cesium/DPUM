@@ -1,4 +1,4 @@
-# Codigo Morse Colado
+# Código Morse Colado
 ![](https://img.shields.io/badge/-HARD-red.svg?style=for-the-badge)
 
 Uma permutação do alfabeto é uma string de 26 caracteres em que as letras de `a` a `z` apenas aparecem uma vez.
