@@ -19,7 +19,7 @@ wirnbfzehatqlojpgcvusyxkmd
 É de relembrar que este output pode não ser único.
 Utiliza este [input](https://gist.github.com/cosmologicon/415be8987a24a3abd07ba1dddc3cf389#file-smorse2-bonus1-in) caso queiras testar a rapidez do teu código.
 
-Nota: A execução do teu programa não deve aceitar argumentos a não ser o próprio programa e um ficheiro com dados de input. O input pode também ser inserido através do stdin como alternativa. 
+Nota: A execução do teu programa não deve aceitar argumentos a não ser o próprio programa e um ficheiro com dados de input. O input pode também ser lido através do stdin até EOF. 
 Por exemplo em C:
 `./program input.txt` ou `./program < input.txt` 
 
