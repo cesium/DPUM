@@ -1,7 +1,0 @@
-import sys
-s=""
-for c in sys.argv[1]:
- i=__file__.index(c);n=i;p=""
- while n > 0:n-=1;p=".-"[n%2]+p;n//=2
- s+=p
-print(s)
