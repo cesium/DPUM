@@ -4,7 +4,7 @@ Para utilizar de forma correta o dice roler, tens de seguir apenas dois passos.
 
 ## Primeiro Passo
 
-Abre um terminal e navega até esta diretoria. Assim que aqui chegares faz 'make' no terminal, de seguida será pedida a tua password para instalar o executável no teu computador.
+Abre um terminal e navega até esta diretoria. Assim que aqui chegares faz 'make' no terminal e o executavél será criado.
 
 ## Segundo Passo
 
