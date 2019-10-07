@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/-HARD-red.svg?style=for-the-badge)
 
 Uma permutação do alfabeto é uma string de 26 caracteres em que as letras de `a` a `z` apenas aparecem uma vez.
-Dada uma permutação do alfabeto codificada em código morse sem espaços entre os caracteres encontre qual a permutação que esta string representa. Tenha em conta que a string em código morse pode gerar mais que uma permutação do alfabeto. É necessário também referir que uma letra em código morse é composta por uma combinação de `.` e `-`.
+Dada uma permutação do alfabeto codificada em código morse sem espaços entre os caracteres podem ser encontradas várias permutações do mesmo alfabeto. Tenha em conta que a string em código morse pode gerar mais que uma permutação do alfabeto. É necessário também referir que uma letra em código morse e composta por uma combinação de `.` e `-`.
 
 ## Desafio
 
