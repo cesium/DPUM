@@ -16,4 +16,6 @@ Por exemplo:
 "programmer" => ".--..-.-----..-..-----..-."
 ```
 
-
+Nota: A execução do teu programa não deve aceitar argumentos a não ser o próprio programa e um ficheiro com dados de input. O input pode também ser lido através do stdin até EOF. 
+Por exemplo em C:
+`./program input.txt` ou `./program < input.txt` 
