@@ -5,7 +5,9 @@ import (
   "fmt"
   "os"
   "sync"
+  "runtime/debug"
 )
+
 
 var wg sync.WaitGroup
 
@@ -20,6 +22,7 @@ func smosh(line string, m map[string]string) {
 
 func main() {
 
+  debug.SetGCPercent(-1)
   m  := map[string]string{
     "a": ".-",
     "b": "-...",
