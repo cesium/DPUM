@@ -29,4 +29,6 @@ def check_morse_code(remaining: str, used_letters = ''):
         except:
             continue
 
+    raise Exception('Ok, espero que dê')
+
 print(check_morse_code(test_code))
