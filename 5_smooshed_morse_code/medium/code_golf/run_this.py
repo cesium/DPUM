@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+import fileinput
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 morse = ".- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --..".split(' ')
@@ -32,18 +32,13 @@ def check_morse_code(remaining: str, used_letters = ''):
 
 
 def loop_through_file_lines():
-    try:
-        # OPEN FILE WITH 1000 LINES OF MORSE CODE TO CHECK IF THE ALGORITHM WORKS
-        fp = 'test_input.txt'
-        with open(fp) as fp:
-            # CHECKS FOR EVERY LINE IN THE FILE
-            for line in fp:
-                # SET TEST CODE AS THE LINE BEING CHECKED
-                test_code = str(line.strip())
-                # PRINTS THE LINE TO OUTPUT
-                print(check_morse_code(test_code))
-    finally:
-        fp.close()
+    # OPEN FILE WITH 1000 LINES OF MORSE CODE TO CHECK IF THE ALGORITHM WORKS
+    # CHECKS FOR EVERY LINE IN THE FILE
+    for line in fileinput.input():
+        # SET TEST CODE AS THE LINE BEING CHECKED
+        test_code = str(line.strip())
+        # PRINTS THE LINE TO OUTPUT
+        print(check_morse_code(test_code))
 
 # CORRER ISTO E REZAR PARA QUE NÃO MATE A RAM
 loop_through_file_lines()
