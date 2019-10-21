@@ -28,7 +28,22 @@ def check_morse_code(remaining: str, used_letters = ''):
             return check_morse_code(untested_test_code, verified_letters)
         except:
             continue
-
     raise Exception('Ok, espero que dê')
 
-print(check_morse_code(test_code))
+
+def loop_through_file_lines():
+    try:
+        # OPEN FILE WITH 1000 LINES OF MORSE CODE TO CHECK IF THE ALGORITHM WORKS
+        fp = 'test_input.txt'
+        with open(fp) as fp:
+            # CHECKS FOR EVERY LINE IN THE FILE
+            for line in fp:
+                # SET TEST CODE AS THE LINE BEING CHECKED
+                test_code = str(line.strip())
+                # PRINTS THE LINE TO OUTPUT
+                print(check_morse_code(test_code))
+    finally:
+        fp.close()
+
+# CORRER ISTO E REZAR PARA QUE NÃO MATE A RAM
+loop_through_file_lines()
