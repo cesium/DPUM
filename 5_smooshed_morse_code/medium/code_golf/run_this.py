@@ -1,33 +1,32 @@
 #!/usr/bin/env python3
 
-letters = "abcdefghijklmnopqrstuwvxyz"
-morse = ".- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --..".split()
-# CREATE DICTIONARY WITH LETTERS AND MORSE
-dictionary = dict(zip(morse, letters))
-result = []
 
-def check_morse_code(original_code, all = set(dictionary), used_letters = []):
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+morse = ".- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --..".split(' ')
+test_code = '.--...-.-.-.....-.--........----.-.-..---.---.--.--.-.-....-..-...-.---..--.----..'
+# CREATE DICTIONARY [LETTERS : MORSE]
+dictionary = dict(zip(alphabet, morse))
 
+def check_morse_code(remaining: str, used_letters = ''):
 
-    for i in range(1,5):
-        checking = original_code[:i]
+    # IF ALL THE CODE IS TESTED, JOIN THE LETTERS
+    if not remaining:
+        if len(used_letters) == len(alphabet):
+            return "".join(used_letters)
 
-        if checking in all:            
-            used_letter = dictionary.get(checking, "")
+    # LOOP THGROUGH ALL LETTERS IN THE ALPHABET
+    for letter in {l for l in alphabet if l not in used_letters}:
+        # CHECK IF THE MORSE PART CURRENTLY VERIFYING IS THE NEXT ONE TO CHECK
+        if not remaining.startswith(dictionary[letter]):
+            continue
+        # ADD THE LETTER VERIFIED NOW TO THE LIST OF USED LETTERS
+        verified_letters = used_letters + letter
+        # REMOVE THE TESTED CODE FROM THE REMAINING VARIABLE
+        untested_test_code = remaining[len(dictionary[letter]):]
+        try:
+            # ENTER ON A RECURSIVE LOOP TO TEST IT WITH ALL THE CODE
+            return check_morse_code(untested_test_code, verified_letters)
+        except:
+            continue
 
-            used_letters.append(checking)
-            # REMOVE USED LETTERS FROM DICTIONARY
-            rest = all.copy()
-            rest.remove(checking)
-            result.append(used_letter)
-
-            # CHECK IF LETTERS ARE BEING REMOVED
-
-            check_morse_code(original_code[i:], rest)
-            break    
-
-
-
-check_morse_code('.--...-.-.-.....-.--........----.-.-..---.---.--.--.-.-....-..-...-.---..--.----..')
-print(result)
-
+print(check_morse_code(test_code))
