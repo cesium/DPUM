@@ -9,7 +9,7 @@ Por exemplo:
 `rest`
 
 # Formato Output
-True ou False
+`True` ou `False`
 
 Exemplos:
 
