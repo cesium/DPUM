@@ -9,9 +9,9 @@ gnash => gash => ash => ah
 
 Dada uma palavra, determine o tamanho do funil de palavras mais longo que ele inicia.
 
-## Formaro do Input
+## Formato do Input
 
-O input contém uma string 
+O input contém uma palavra 
 
 ## Formato do Output
 
