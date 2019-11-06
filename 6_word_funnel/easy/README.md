@@ -5,19 +5,20 @@ Dadas duas strings, determine se a segunda pode ser feita a partir da primeira r
 
 # Formato Input
 Por exemplo:
-'reset'
-'rest'
+`reset`
+`rest`
 
 # Formato Output
 True ou False
 
 Exemplos:
 
+```
 funnel("leave", "eave") => true
 funnel("reset", "rest") => true
 funnel("dragoon", "dragon") => true
 funnel("eave", "leave") => false
 funnel("sleet", "lets") => false
 funnel("skiff", "ski") => false
-
+```
 
