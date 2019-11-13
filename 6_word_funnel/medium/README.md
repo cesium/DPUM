@@ -26,6 +26,6 @@ funnel("implosive") => 1
 funnel("programmer") => 2
 ```
 
-Nota: O teu programa n?o deve aceitar argumentos a n?o ser o pr?prio programa e um ficheiro com dados de input. O input pode tamb?m ser lido atrav?s do stdin at? EOF. 
+Nota: O teu programa não deve aceitar argumentos a não ser o próprio programa e um ficheiro com dados de input. O input pode também ser lido através do stdin até EOF. 
 Por exemplo em C:
 `./program input.txt` ou `./program < input.txt`
