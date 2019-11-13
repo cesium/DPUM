@@ -25,3 +25,7 @@ funnel("turntables") => 5
 funnel("implosive") => 1
 funnel("programmer") => 2
 ```
+
+Nota: O teu programa n?o deve aceitar argumentos a n?o ser o pr?prio programa e um ficheiro com dados de input. O input pode tamb?m ser lido atrav?s do stdin at? EOF. 
+Por exemplo em C:
+`./program input.txt` ou `./program < input.txt`

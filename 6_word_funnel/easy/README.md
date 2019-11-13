@@ -22,3 +22,6 @@ funnel("sleet", "lets") => false
 funnel("skiff", "ski") => false
 ```
 
+Nota: O teu programa pode deve aceitar argumentos a n?o ser o pr?prio programa e um ficheiro com dados de input. O input pode tamb?m ser lido atrav?s do stdin at? EOF. 
+Por exemplo em C:
+`./program input.txt` ou `./program < input.txt`
