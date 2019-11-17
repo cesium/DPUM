@@ -9,11 +9,10 @@ const char * code[] ={"","","","","","","","","","","\n","","","","","","","",""
 int main(int argc, char**argv){
     char * a = malloc(SIZE);
     char * ba;
-    int len;
-    while(len = read(0,a,SIZE)){
+    while(read(0,a,SIZE)){
         ba = a;
         for (; *ba; ba++){
-            printf("%s", code[(int)(*ba)]);
+            puts(code[(int)(*ba)]);
         }
     }
     free(a);
