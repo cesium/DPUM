@@ -3,7 +3,7 @@
 ### Build
 
 ```bash
-$ crystal build funnel.cr --release
+$ crystal build --no-debug -Ddisable_logging --release funnel.cr
 ```
 
 ### Run
