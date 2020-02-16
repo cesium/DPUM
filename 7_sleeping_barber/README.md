@@ -41,4 +41,4 @@ This challenge is a bit different, please do read these notes.
 2. Keep all the code in a single file
 3. Put your solution on `<your username>/<file with solution>`
 4. We are looking for elegant solutions, no need to format your code in a code golf style
-5. There isn't a objective definition of "elegant", that's up for the current CAOS direction to decide. We will mainly focus on concepts used and code length (withing reason).
+5. There isn't an objective definition of "elegant", that's up for the current CAOS direction to decide. We will mainly focus on concepts used and code length (withing reason).
