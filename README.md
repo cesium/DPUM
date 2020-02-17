@@ -13,6 +13,7 @@
 ### MEDIUM
 
 - [Smoshed Morse Code](5_somoshed_morse_code/medium/)
+- [Sleeping Barber](7_sleeping_barber)
 
 ### HARD
 
